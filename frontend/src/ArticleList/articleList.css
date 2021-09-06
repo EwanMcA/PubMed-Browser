@@ -1,0 +1,19 @@
+.article {
+  display: flex;
+  border-bottom: 1px solid lightsteelblue;
+}
+
+.mobileArticle {
+  display: block;
+  border-bottom: 1px solid lightsteelblue;
+}
+
+.articleHeadline {
+  max-width: 80%;
+}
+
+.articleMeta {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
