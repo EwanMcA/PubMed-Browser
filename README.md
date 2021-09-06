@@ -2,7 +2,8 @@
 
 ## Build
 
-Use pip or pipenv to install required packages into python virtual environment using the supplied Pipfile.
+Use pipenv to install required packages into python virtual environment using the supplied Pipfile.  
+(I used python3.8 but 3.7 - 3.9 should be ok)
 
 `python ./init-db.py`  
 `cd frontend`  
