@@ -32,8 +32,7 @@ def reading_list():
                     f"VALUES ({id}, '{title}', '{lastauthor}', '{journal}', "
                     f"'{pubdate}', '{link}')")
             return "success"
-        except Exception as e:
-            print(e)
+        except Exception:
             abort(500)
 
     if request.method == "GET":
@@ -50,6 +49,9 @@ def reading_list():
         return jsonify(results)
 
 
+#
+#  DB helpers
+#
 def get_db():
     db = getattr(g, "_database", None)
     if db is None:
