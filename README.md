@@ -2,12 +2,12 @@
 
 ## Build
 
-Use pip or pipenv to set up python virtual environment using the supplied Pipfile.
+Use pip or pipenv to install required packages into python virtual environment using the supplied Pipfile.
 
-`python ./init-db.py`
-`cd frontend`
-`npm install`
-`npm run build`
+`python ./init-db.py`  
+`cd frontend`  
+`npm install`  
+`npm run build`  
 
 ## Run
 
